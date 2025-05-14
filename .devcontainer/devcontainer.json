@@ -1,0 +1,19 @@
+{
+	"name": "Hockey Dev Container",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	// "features": {},
+	// "forwardPorts": [],
+	"postCreateCommand": "git config --global user.email \"jimseiwert@gmail.com\" && git config --global user.name \"Jim Seiwert\" ",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"YuTengjing.vscode-classic-experience"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	}
+	// "remoteUser": "root"
+}
